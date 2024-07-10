@@ -1,0 +1,140 @@
+#wallpaper-div {
+    /* Specify the background image */
+    background-image: url('./images/background.jpg');
+    
+    /* Set background properties */
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Positions the background image */
+    background-repeat: no-repeat; /*Prevents the background image from repeating */
+    color: white;
+    height: 500px; 
+    width: 100%;
+    margin-top: 0px;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "Sacramento", cursive;
+    margin-top: 5rem;
+}
+
+div>.lead {
+    color: aliceblue;
+    font-family: "Sacramento", cursive;
+    margin-top: 3rem;  
+}
+
+.me {
+    width: 150px; 
+    height: 170px; 
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+p {
+    font-family: "Sacramento", cursive;
+    color: #474747;
+}
+
+.skills-list {
+    font-family: "Sacramento", cursive;
+    color: #474747;
+    list-style-position: inside; 
+    padding: 0;
+    margin-top: 3rem;
+    display: inline-block; /* Align the list container to center */
+    text-align: left; /* Align list items to the left */
+}
+.skills-list li {
+    padding-left: 0.5rem; /* Adjusts the spacing between the bullet point and the text */
+    text-align: left;
+}
+
+h2 {
+    font-family: "Sacramento", cursive;
+    color: #474747;
+    font-weight: bold; 
+}
+
+hr {
+    border: dotted #474747 6px;
+    border-bottom: none;
+    width: 8%;
+    margin: 70px auto;
+}
+
+.intro-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.intro-wrap img {
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+.intro-wrap p {
+    padding-left: 20px;
+    text-indent: 20px; /* Adjust this value to move the text more or less */
+}
+
+
+.skills-wrap {
+    display: flex;
+    align-items: flex-start;
+}
+
+.skills-wrap img {
+    margin-left: -10px;
+    margin-top: 40px; 
+}
+
+.skills-list {
+    padding-left: 20px;
+    text-indent: 20px; /* Adjust this value to move the text more or less */
+}
+
+#projects {
+    font-family: "Sacramento", cursive;
+} 
+
+.card-header h4 {
+    color: #474747; /* Change font color of "Web Programming" */
+}
+
+.card-body ul li {
+    color: #474747; /* Change font color of list items */
+}
+
+.list-unstyled {
+    list-style-type: lower-roman;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+small {
+    font-size: 0.8rem;
+}
+
+.btn {
+    font-family: "Sacramento", cursive;
+    background-color: #474747;
+    color: white;
+}
+
+.footer {
+    width: 100%; /* Ensure the footer spans the full width */
+    background-color: #474747; /* Dark background color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Adjust padding as needed */
+    font-family: "Sacramento", cursive;
+    margin-top: 6rem;
+}
+
+.footer .nav-link,
+.footer p {
+    color: white; /* Ensure all text in the footer is white */
+   
+}
+
