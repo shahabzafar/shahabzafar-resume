@@ -14,13 +14,13 @@
 
 h1 {
     color: aliceblue;
-    font-family: "Sacramento", cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 5rem;
 }
 
 div>.lead {
     color: aliceblue;
-    font-family: "Sacramento", cursive;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     margin-top: 3rem;  
 }
 
@@ -32,12 +32,12 @@ div>.lead {
 }
 
 p {
-    font-family: "Sacramento", cursive;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     color: #474747;
 }
 
 .skills-list {
-    font-family: "Sacramento", cursive;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     color: #474747;
     list-style-position: inside; 
     padding: 0;
@@ -51,7 +51,7 @@ p {
 }
 
 h2 {
-    font-family: "Sacramento", cursive;
+    font-family: 'Roboto', sans-serif;
     color: #474747;
     font-weight: bold; 
 }
@@ -96,7 +96,7 @@ hr {
 }
 
 #projects {
-    font-family: "Sacramento", cursive;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 } 
 
 .card-header h4 {
@@ -118,7 +118,7 @@ small {
 }
 
 .btn {
-    font-family: "Sacramento", cursive;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     background-color: #474747;
     color: white;
 }
@@ -128,7 +128,7 @@ small {
     background-color: #474747; /* Dark background color */
     color: white; /* Text color */
     padding: 10px 0; /* Adjust padding as needed */
-    font-family: "Sacramento", cursive;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     margin-top: 6rem;
 }
 
