@@ -1,13 +1,16 @@
 
 @media (max-width:600px) {
     body {
-        font-size: 10px;
+        font-size: 8.5px;
     }
     .mobile {
-        font-size: 15px; 
+        font-size: 8.5px; 
     }
      h2, h4 {
-        font-size: 20px;
+        font-size: 13px;
+    }
+    small {
+        font-size: 8.5px;
     }
     img {
         height: 70px;
@@ -53,10 +56,10 @@
 
     .skills-list li {
         padding-left: 0px; /* Add padding to the list items for indentation */
-        text-indent: -15px; /* Negative indent to offset the padding */
+        text-indent: -14px; /* Negative indent to offset the padding */
     }
     .contact-btn {
-        font-size: 10px; /* Smaller font size */
-        padding: 6px 12px; /* Smaller padding */
+        font-size: 8px; /* Smaller font size */
+        padding: 4px 10px; /* Smaller padding */
     }
 }
